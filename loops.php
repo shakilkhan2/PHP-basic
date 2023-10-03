@@ -30,7 +30,7 @@ foreach($ages as $name => $age ){
     ?>
     <!-- Foreach Loop End -->
 
-    <!-- While Loop -->
+    <!-- While Loop Start-->
     <?php
 $i = 1;
 while($i <=20){
@@ -44,7 +44,31 @@ while($x <=20){
     $x +=2 ;
 }
     ?>
+    <!-- While Loop Ends -->
 
-    <!--  -->
+    <!-- For Loop Starts-->
+    <?php
+// Syntax:
+
+/*
+for (init counter; test counter; increment counter) {
+    code to be executed for each iteration;
+  }
+*/
+
+for($y = 5; $y <= 55; $y +=5){
+    echo "$y </br>" ;
+}
+
+for($n = 3; $n <= 30; $n *=3){
+    echo "$n is divisible by 3 </br>";
+}
+
+for($even = 2; $even < 41; $even +=2) {
+    echo "the even number is $even </br>";
+}
+    ?>
+
+    
 </body>
 </html>
