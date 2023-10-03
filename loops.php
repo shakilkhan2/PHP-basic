@@ -6,6 +6,8 @@
     <title>Loops | PHP</title>
 </head>
 <body>
+
+<!-- Foreach Loop Start -->
     <?php
 $persons = array("Apu", "Dipu", "Shipu", "Ripu", "Nipu");
 
@@ -26,5 +28,23 @@ foreach($ages as $name => $age ){
 }
 
     ?>
+    <!-- Foreach Loop End -->
+
+    <!-- While Loop -->
+    <?php
+$i = 1;
+while($i <=20){
+    echo "serial no.    $i </br>";
+    $i++;
+}
+
+$x = 2;
+while($x <=20){
+    echo "my even is: $x </br>";
+    $x +=2 ;
+}
+    ?>
+
+    <!--  -->
 </body>
 </html>
